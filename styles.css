@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.top-bar {
+  display: flex;
+  gap: 1.3rem;
+  align-items: center;
+  position: absolute;
+  right: 1rem;
+  top: 0.8rem;
+}
+
+.apps-icon img {
+  width: 25px;
+  cursor: pointer;
+}
+
+.user {
+  background: url("media/razaq.jpg") no-repeat center center/cover;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.top-bar a {
+  color: #111111;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.top-bar a:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.search-container {
+  display: flex;
+  border: 2px solid #f0efef;
+  padding: 0.4rem;
+  width: 45%;
+  border-radius: 50px;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.search-container input {
+  width: 90%;
+  height: 30px;
+  border: none;
+  outline: none;
+  padding: 0 1rem;
+  font-size: 1.2rem;
+  color: #555252;
+}
+
+.voice {
+  width: 25px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.logo {
+  width: 270px;
+  margin-bottom: 1.5rem;
+}
+
+.search-icon {
+  color: #9aa0a6;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  padding: 10px 1rem;
+  color: #3c4043;
+  font-size: 14px;
+  margin: 0.5rem;
+}
+
+button:hover {
+  border: 1px solid #dcdddd;
+  border-radius: 7px;
+}
+
+.languages {
+  font-size: 0.9rem;
+  margin-top: 1.5rem;
+}
+
+.languages a {
+  color: #1a0dab;
+}
+
+.languages a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #f2f2f2;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+}
+
+.footer-bottom a {
+  font-size: 0.94rem;
+  color: #70757a;
+  margin: 0.6rem;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+footer span {
+  color: #70757a;
+  display: inline-block;
+  margin: 1.5rem;
+}
+
+.middle-link img {
+  width: 15px;
+}
+
+hr {
+  border: 0.5px solid #e2e2e2;
+}
