@@ -159,3 +159,21 @@ footer span {
 hr {
   border: 0.5px solid #e2e2e2;
 }
+
+.msg {
+  display: none;
+}
+
+@media screen and (max-width: 860px) {
+  header,
+  main,
+  footer {
+    display: none;
+  }
+
+  .msg {
+    display: block;
+    text-align: center;
+    margin: 20% 3rem;
+  }
+}
